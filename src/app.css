@@ -1,0 +1,70 @@
+:root {
+  --purple: #495867;
+  --orange: #C18C5D
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+  font-size: 3.2rem;
+  font-family: 'Abhaya Libre', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+br {
+  margin-bottom: 10px;
+}
+
+.with-highlight {
+  box-shadow: none;
+  transition: 1s;
+}
+
+.with-highlight:hover {
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.10), 0 -10px 20px -5px var(--purple);
+  box-shadow: 0 0 20px rgba(var(--orange), 0.7);
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 1150px) {
+  .columns {
+    flex-direction: column;
+  }
+}
+
+.focus-in {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}

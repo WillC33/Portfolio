@@ -1,0 +1,16 @@
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+@media (min-width: 768px) {
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+.projects-heading {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

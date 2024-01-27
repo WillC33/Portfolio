@@ -1,0 +1,17 @@
+.bioText {
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 600px) {
+    .bioText {
+        font-size: 1rem;
+    }
+    .spaceList {
+        padding-bottom: 1.7rem;
+    }
+}

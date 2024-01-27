@@ -1,0 +1,17 @@
+.pill {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    margin: 4px;
+    color: #fff;
+    opacity: 0.4;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.3s, transform 0.7s;
+    cursor: default;
+}
+
+.pill:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
