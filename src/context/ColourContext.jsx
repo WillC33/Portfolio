@@ -6,7 +6,7 @@ const ColourContext = createContext();
 export const ColourProvider = ({ children }) => {
     const [colour, setColour] = useState('');
     const colourOptions = [
-        "#E39F23",
+        "#e69809",
         "#a66efa"
     ];
 
