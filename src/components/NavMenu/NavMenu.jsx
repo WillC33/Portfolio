@@ -17,10 +17,10 @@ export const NavMenu = () => {
                     <p name="home" onClick={(e) => handleClick(e)} className='with-highlight'>() => goHome</p>
                 </li>}
                 {location !== 'profile' && <li className={styles.listItem}>
-                    <p name="profile" onClick={(e) => handleClick(e)} className={styles.spaceList}>() => profile</p>
+                    <p name="profile" onClick={(e) => handleClick(e)} className="with-highlight">() => profile</p>
                 </li>}
                 {location !== 'projects' && <li className={styles.listItem}>
-                    <p name="projects" onClick={(e) => handleClick(e)} className={styles.spaceList}>() => projects</p>
+                    <p name="projects" onClick={(e) => handleClick(e)} className="with-highlight">() => projects</p>
                 </li>}
             </ul>
         </menu>

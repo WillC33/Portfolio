@@ -1,7 +1,41 @@
 .listItem {
     cursor: pointer;
+    transition: text-shadow 1s;
+    overflow: visible;
+}
+
+.listItem:hover {
+    animation: pulsate 4.5s infinite alternate;
+    transition: text-shadow 1s;
+
+    text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #f7ae48,
+            0 0 82px #b97ef7;
 }
 
 .menu {
     list-style-type: none;
+}
+
+@keyframes pulsate {
+    100% {
+        text-shadow: 0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #f7ae48,
+        0 0 80px #f7ae48,
+        0 0 90px #b97ef7;
+    }
+    0% {
+        text-shadow: 0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 6px #fff,
+        0 0 10px #f7ae48,
+        0 0 45px #f7ae48,
+        0 0 55px #b97ef7,
+        0 0 70px #b97ef7;
+    }
 }

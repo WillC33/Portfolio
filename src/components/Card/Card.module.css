@@ -3,7 +3,7 @@
     color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 20px 0;
+    padding: 20px 5px;
     margin: 20px 0;
     transition: background-color 0.3s, box-shadow 0.3s;
 }
@@ -40,6 +40,7 @@
 
 .text {
     text-align: left;
+    margin: 10px 10px;
 }
 
 .buttons {
