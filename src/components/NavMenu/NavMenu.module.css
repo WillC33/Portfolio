@@ -1,5 +1,13 @@
+.menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
 .listItem {
+    flex-direction: row;
     cursor: pointer;
+    padding: 0 10px;
     transition: text-shadow 1s;
     overflow: visible;
 }
