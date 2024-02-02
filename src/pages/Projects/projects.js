@@ -1,5 +1,14 @@
 export const projects = [
   {
+    "title": "WriterUI",
+    "tech": [
+      "C#",
+    ],
+    "url": "https://www.nuget.org/packages/WriterUI",
+    "description": "WriterUI provides a set of convenient methods for interacting with the console, allowing you to display formatted messages, capture user input, and customise the console output to match your application's style. Distributed as an open source nuget.",
+    "post": ""
+  },
+  {
     "title": "little link",
     "tech": [
       "C#",
@@ -74,7 +83,7 @@ export const projects = [
   {
     "title": "Other",
     "tech": [
-      "C#"
+      "C#", "JS", "Python"
     ],
     "url": "https://github.com/WillC33",
     "description": "Various other projects can be found on my GitHub account. These include API implementations, and machine learning projects. If you have any interest in working together on something, let me know. I love a good project!",
