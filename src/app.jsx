@@ -5,11 +5,13 @@ import {LocationProvider, useLocation} from "./context/LocationContext.jsx";
 import {Profile} from "./pages/Profile";
 import {Projects} from "./pages/Projects";
 import {ColourProvider} from "./context/ColourContext.jsx";
+import ChatWidget from "./components/Widget/ChatWidget.jsx";
 
 export const App = () => (
     <ColourProvider>
         <LocationProvider>
             <Main />
+            <ChatWidget />
         </LocationProvider>
     </ColourProvider>
 )

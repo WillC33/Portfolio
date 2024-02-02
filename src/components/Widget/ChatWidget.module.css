@@ -1,0 +1,33 @@
+.widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--widget-primary-colour);
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.5s ease;
+}
+
+.widget:hover {
+    border-color: var(--widget-hover-primary);
+    flex-grow: 2;
+}
+
+.widget:hover .chatIcon {
+    transform: scale(1.1);
+}
+
+.chatIcon {
+    margin-top: 6px;
+    user-select: none;
+    -webkit-user-select: none;
+    font-size: 24px;
+    transition: transform 0.5s ease-in-out;
+}

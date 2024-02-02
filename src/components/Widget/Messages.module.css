@@ -1,0 +1,57 @@
+.messageContainer {
+    margin-bottom: 10px;
+    max-width: 85%;
+}
+
+.messageContent {
+    font-size: small;
+    line-height: 1.5;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 70%;
+}
+
+.userMessage {
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+}
+
+.userContent {
+    background: rgb(2,0,36);
+    background: linear-gradient(130deg, var(--widget-primary-colour) 60%, var(--widget-gradient-colour) 120%);
+    color: #fff;
+}
+
+.assistantMessage {
+    display: flex;
+    text-align: left;
+}
+
+.assistantContent {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.errorMessage {
+    outline: 2px solid red;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+    font-weight: bold;
+    color: red;
+    animation: shake 0.3s;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-3px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(3px);
+    }
+}
