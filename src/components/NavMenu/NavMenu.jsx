@@ -7,6 +7,7 @@ export const NavMenu = () => {
 
     const handleClick = (e) => {
         const page = e.target.getAttribute('name')
+        if (page === 'blog') window.location.href = "https://garden.williamcooke.net";
         navigate(page);
     }
 
@@ -22,9 +23,9 @@ export const NavMenu = () => {
                 {location !== 'projects' && <li className={styles.listItem}>
                     <p name="projects" onClick={(e) => handleClick(e)} className="with-highlight">() => projects</p>
                 </li>}
-                {/*location !== 'blog' && <li className={styles.listItem}>
+                {location !== 'blog' && <li className={styles.listItem}>
                     <p name="blog" onClick={(e) => handleClick(e)} className="with-highlight">() => blog</p>
-                </li>*/}
+                </li>}
             </ul>
         </menu>
     )
