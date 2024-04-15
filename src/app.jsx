@@ -11,7 +11,6 @@ export const App = () => (
     <ColourProvider>
         <LocationProvider>
             <Main />
-            <ChatWidget />
         </LocationProvider>
     </ColourProvider>
 )
