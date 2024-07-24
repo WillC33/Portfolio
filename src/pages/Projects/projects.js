@@ -77,7 +77,7 @@ export const projects = [
       "C#"
     ],
     "url": "https://mathildegarnier.eu",
-    "description": "A professional portfolio website for a researcher. Using the technology she is familiar with, we have create a solution for a custom CMS in markdown as well as a Zotero integration that hides the API key from public sight, while still returning authorised catalogues.",
+    "description": "Ultra-minimalist professional portfolio website for a researcher. Using the technology she is familiar with, we have created a solution for a custom CMS in markdown as well as a Zotero integration that hides the API key from public sight, while still returning authorised catalogues.",
     "post": ""
   },
   {
